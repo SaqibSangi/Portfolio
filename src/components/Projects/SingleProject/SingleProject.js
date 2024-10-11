@@ -38,7 +38,6 @@ function SingleProject({
     },
   }));
 
-  const classes = useStyles();
 
   return (
     <Fade bottom>

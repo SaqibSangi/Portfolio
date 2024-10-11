@@ -8,13 +8,7 @@ import { ThemeContext } from "../../contexts/ThemeContext";
 import { headerData } from "../../data/headerData";
 import { socialsData } from "../../data/socialsData";
 
-import {
-  FaTwitter,
-  FaLinkedin,
-  FaGithub,
-  FaYoutube,
-  FaBlogger,
-} from "react-icons/fa";
+import { FaLinkedin, FaGithub } from "react-icons/fa";
 
 function Landing() {
   const { theme, drawerOpen } = useContext(ThemeContext);
@@ -65,7 +59,7 @@ function Landing() {
         height: "50px", // Adjust button height
         fontSize: "0.9rem", // Adjust font size for readability
       },
-    },    
+    },
   }));
 
   const classes = useStyles();
